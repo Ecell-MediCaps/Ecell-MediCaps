@@ -1,6 +1,7 @@
 {
   "name": "e-cell",
   "version": "0.1.0",
+  "homepage": "https://HimadriPathak.github.io/MediCapsE-cell",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -22,6 +23,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -43,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
