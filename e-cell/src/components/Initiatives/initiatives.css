@@ -1,0 +1,24 @@
+:root {
+    --primary: #9615DB;
+    --secondary: #D2D3D3;
+    --dark: #D2D3D3;
+    --light: #2D3032;
+  }
+  
+  .initiative {
+    font-family: montserrat, sans-serif;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    z-index: 2;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    background-color:rgba(0, 0, 0, 0.8);
+    color: var(--dark);
+  }
+  .card2container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
