@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.home,
+.about,
+.contact,
+.archives,
+.teampage {
+  /* display: block; */
+  /* height: 90vh; */
+  /* align-items: center;
+  justify-content: center; */
+  text-align: center;
+  /* padding: 1rem; */
+
+  /* font-size: 3rem; */
+  background-color: #010615;
+  color: #fff;
+}
+
+.page-icon {
+  margin-left: 1rem;
+  font-size: 100px;
+}
+
+#error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.speakers,
+.startup,
+.associates,
+.sponsors {
+  padding: 2rem 0;
+}
+
+
+.teampage {
+  padding-top: 2rem;
+  background: url('./assets/videos/teambg.mp4') ;
+}
+.teampage h1 {
+  font-size: 4rem;
+}
+.ourteam {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background: #010615; */
+  padding: 3rem;
+}
+
+.teamcard {
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  opacity: 0.5;
+  border-radius: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+background: #2d3032;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+  opacity: 0.5;
+}
+
+.associates,.speakers,.startup {
+  background: rgba(0, 0, 0, 0.8);
+}

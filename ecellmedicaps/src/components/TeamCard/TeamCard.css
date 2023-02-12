@@ -1,0 +1,92 @@
+
+.profile-card {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    
+}
+
+.profile-card .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease-in-out;
+    background-color: #fff;
+    border-radius: 5%;
+    z-index: 2;
+}
+
+.profile-card:hover .img {
+    transform: translate(-40px,-40px);
+}
+
+.profile-card .img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+    box-shadow: -4px -4px 4px 2px rgba(0, 0, 0, 0.4);
+}
+
+.profile-card .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    border-radius: 5%;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: flex-end;
+    padding: 15px 15px 5px;
+    background-color: #fff;
+    transition: 0.5s ease-in-out;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.4);
+}
+
+.profile-card:hover .caption {
+    transform: translate(40px,40px);
+}
+
+.profile-card .caption h3 {
+    font-size: 20px;
+    color: #111;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.profile-card .caption h3 span{
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+.caption a{
+    color: #333;
+    margin-right: 8px;
+    font-size: 17px;
+    transition: .5s;
+  }
+  a:hover{
+    color: #9615db;
+  }
+
+  @media(max-width: 768px){
+    .profile-card:hover .caption {
+        transform: translate(0,40px);
+    }
+    .profile-card:hover .img {
+        transform: translate(0,-40px);
+    }
+  }

@@ -1,0 +1,21 @@
+{
+    "AboutUs":{
+        "description": "E-cell was first established under the Centre of Enterpreneurship Development in the year 2008 & then it gained reputation as an individual club in the year 2018. Our vision is to develop, enhance and carve out the inner enterpreneurial potentials of students by providing them with opportunites.\n\nE-cell's mission is to train students to face industrial challenges. We also help students discover their potential, implement their ideas, innovate and grow and learn everyday to gain the skills which are going to help them a lifetime."
+    },
+    "Ideate": {
+        "title": "Ideate",
+        "detail": "Ideas are just raw materials but they are own most valuable assets.We motivate students to share their Ideas and enjoy their 'Idea to reality' journey with E-cell.",
+        "img": "../../assets/images/ideate.svg"
+
+    },
+    "Initiate": {
+        "title": "Initiate",
+        "detail": "When ideas are implemented properly,they can be wonderful examples.Students can implement their ideas and receive reviews from experienced leaders & alumnus who are a part of the E-cell network.",
+        "img": "../../assets/images/initiate.svg"
+    },
+    "Innovate": {
+        "title": "Innovate",
+        "detail": "Based on the reviews,the students can test out their ideas and come up with various innovative solutions thar will help them create an upward trajectory of their idea.",
+        "img": "../../assets/images/innovate.svg"
+    }
+}
