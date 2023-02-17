@@ -34,7 +34,7 @@ const HeroSection = () => {
               <span>Initiate  &#10022;  </span>
               <span>Innovate</span>
             </h3>
-            <Link to="/paymentform" target="_blank">
+            <Link to="/register">
               <button className='btn'>Register Now</button>
             </Link>
           </div>

@@ -13,7 +13,7 @@ import OurTeam from "./routes/OurTeam";
 import Contact from "./routes/Contact";
 import ErrorPage from "./routes/ErrorPage";
 import Footer from "./components/Footer/Footer"
-import Payfrom from "./routes/Payfrom";
+import Register from "./routes/Register";
 
 export const AppLayout = () => {
   return (
@@ -51,8 +51,8 @@ export const router = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: "paymentform",
-        element: <Payfrom />,
+        path: "register",
+        element: <Register />,
       },
     ],
   },
