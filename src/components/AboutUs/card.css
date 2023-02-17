@@ -1,61 +1,64 @@
 .aboutcard {
-    position: relative;
-    width: 300px;
-    height: 250px;
-    border-radius: 10px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
-    transition: 0.3s;
-    padding: 10px 50px;
-    background: #fff;
-    cursor: pointer;
-    margin-right: 30px;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  padding: 5px 30px;
+  background: #fff;
+  cursor: pointer;
+  margin-right: 30px;
 
-  }
-  
+}
+
 .aboutcard:hover {
-    height: 420px;
-  }
+  height: 420px;
+}
 
 .aboutimgbox {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transform: translateY(-80px);
-    z-index: 2;
-  }
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-80px);
+  z-index: 2;
+}
 
 .aboutimgbox img {
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
-  }
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
 
 .detail {
-    padding: 10px 20px;
-    text-align: center;
-    transform: translateY(-450px);
-    opacity: 0;
-    transition: 0.3s;
+  /* padding: 10px 20px; */
+  text-align: center;
+  transform: translateY(-450px);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+
+.aboutcard:hover > .detail {
+  opacity: 1;
+  transform: translateY(-260px);
+}
+
+.detail h2 {
+  color: #9615DB;
+}
+
+@media (max-width: 900px) {
+  .aboutcard{
+      margin:3rem 1rem;
+      height: 420px;
+
   }
-
-
-  .aboutcard:hover > .detail {
+  .detail {
     opacity: 1;
     transform: translateY(-260px);
   }
-  
-  .detail h2 {
-    color: #9615DB;
+  .detail p {
+    font-size: medium;
   }
-
-  @media (max-width: 1270px) {
-    .aboutcard{
-        margin: 3rem;
-        height: 420px;
-
-    }
-    .detail {
-      opacity: 1;
-      transform: translateY(-260px);
-    }
-  } 
+} 

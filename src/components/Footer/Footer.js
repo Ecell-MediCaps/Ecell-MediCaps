@@ -1,6 +1,6 @@
 import React from "react";
 import { FaMapMarkedAlt, FaInstagram, FaLinkedin } from "react-icons/fa";
-import logo from "../../assets/images/E-Cell_white.png"
+import logo from "../../assets/images/e_summit.png"
 import "./Footer.css"
 
 const Footer = () => {
@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='container'>
                 <div className='col'>
                     <img className="col" src={logo} alt="logo"/>
-                    <p>Copyright &#169; {new Date().getFullYear()} E-cell MediCaps|All Rights Reserved</p>
+                    <p>Copyright &#169; {new Date().getFullYear()} E-cell MediCaps</p>
                     <p>Website developed by Himadri Pathak</p>
                 </div>
                 <div className='social col'>

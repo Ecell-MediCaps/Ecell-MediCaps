@@ -91,3 +91,10 @@ background: #2d3032;
 .associates,.speakers,.startup {
   background: rgba(0, 0, 0, 0.8);
 }
+
+.payform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2d3032;
+}

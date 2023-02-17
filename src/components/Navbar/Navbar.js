@@ -4,7 +4,7 @@ import "./Navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { NavLink } from "react-router-dom";
-import logo from '../../assets/images/E-Cell_white.png'
+import logo from '../../assets/images/e_summit.png'
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -82,6 +82,17 @@ function Navbar() {
                   onClick={closeMobileMenu}
                 >
                   Contact
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink
+                  to="/paymentform"
+                  className={({ isActive }) =>
+                    "nav-links" + (isActive ? " activated" : "")
+                  }
+                  onClick={closeMobileMenu}
+                >
+                  Register Now
                 </NavLink>
               </li>
 

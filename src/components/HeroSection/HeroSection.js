@@ -1,10 +1,10 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import videoBg from '../../assets/videos/Network.mp4'
 import './HeroSection.css'
 import Typewriter from 'typewriter-effect';
 import hero from '../../assets/images/hero.gif'
 import building from '../../assets/images/building.png'
-// import networking from '../../assets/images/networking.png'
 
 
 const HeroSection = () => {
@@ -15,7 +15,6 @@ const HeroSection = () => {
         <img src={building} alt='buildings' />
       </div>
         <video src={videoBg}  autoPlay loop muted/>
-        {/* <img className='networking' src={networking} alt ='networking' /> */}
         <div className='herowrapper'>
           <div className='content'>
             <h3 className='title'>Welcome To</h3>
@@ -35,6 +34,9 @@ const HeroSection = () => {
               <span>Initiate  &#10022;  </span>
               <span>Innovate</span>
             </h3>
+            <Link to="/paymentform" target="_blank">
+              <button className='btn'>Register Now</button>
+            </Link>
           </div>
           <div className='heroImg'>
             <img src={hero} alt='hero' />

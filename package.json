@@ -1,10 +1,11 @@
 {
-  "name": "e-cell",
+  "name": "ecellmedicaps",
   "version": "0.1.0",
-  "homepage": "https://ecell-medicaps.github.io/Ecell-MediCaps/",
+  "homepage": "https://ecellmedicaps.com",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
+    "@leenguyen/react-flip-clock-countdown": "^1.4.0",
     "@rumess/react-flip-countdown": "^1.2.6",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -22,9 +23,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

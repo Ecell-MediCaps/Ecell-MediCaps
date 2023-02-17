@@ -33,30 +33,30 @@ const Contact = (props) => {
     },5000);
 
   return (
-            <form action="" ref={form} onSubmit={sendEmail}>
-              <div class="formWord">
+            <form className='form' action="" ref={form} onSubmit={sendEmail}>
+              <div className="formWord">
                 <h2>Say Hello!</h2>
                 <span>Full Name</span>
                 <br />
-                <input class="input100" type="text" name="fullName" required />
+                <input className="input100" type="text" name="fullName" required />
                 <br />
                 <span>Phone Number</span>
                 <br />
-                <input class="input100" type="text" name="phone" required />
+                <input className="input100" type="text" name="phone" required />
                 <br />
                 <span>Enter Email</span>
                 <br />
-                <input class="input100" type="text" name="email" required />
+                <input className="input100" type="text" name="email" required />
                 <br />
               </div>
-              <div class="formWord">
+              <div className="formWord">
                 <span>Message</span>
                 <br />
                 <textarea name="message" required></textarea>
                 <br />
                 <button>SUBMIT</button>
 
-                <div class="row">
+                <div className="row">
                     {result ? <Result /> : null}
                 </div>
               </div>
