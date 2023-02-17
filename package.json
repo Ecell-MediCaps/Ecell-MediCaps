@@ -1,7 +1,7 @@
 {
   "name": "e-cell",
   "version": "0.1.0",
-  "homepage": "https://ecell-medicaps.github.io/Ecell-MediCaps/",
+  "homepage": "https://ecell-medicaps.github.io/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
