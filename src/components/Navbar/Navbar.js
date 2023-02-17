@@ -84,6 +84,7 @@ function Navbar() {
                   Contact
                 </NavLink>
               </li>
+              
 
             </ul>
           </div>
