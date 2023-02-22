@@ -35,23 +35,23 @@ export const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "esummit",
+        path: "/esummit",
         element: <ESummit />,
       },
       {
-        path: "archives",
+        path: "/archives",
         element: <Archives />,
       },
       {
-        path: "ourteam",
+        path: "/ourteam",
         element: <OurTeam />,
       },
       {
-        path: "contact",
+        path: "/contact",
         element: <Contact />,
       },
       {
-        path: "register",
+        path: "/register",
         element: <Register />,
       },
     ],
