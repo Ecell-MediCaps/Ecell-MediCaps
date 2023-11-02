@@ -71,7 +71,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%);
+  background-image: linear-gradient(to top right, rgb(112, 15, 141),  rgb(230, 207, 243) 50%,rgba(0, 0, 139, 0.932) );
   z-index: -1;
   border-radius: 0px 0px 50% 0px;
 }
