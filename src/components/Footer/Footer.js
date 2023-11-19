@@ -2,32 +2,46 @@ import React from "react";
 import { FaMapMarkedAlt, FaInstagram, FaLinkedin } from "react-icons/fa";
 import logo from "../../assets/images/e_summit.png"
 import "./Footer.css"
-
 const Footer = () => {
     return (
-        <div className='footer'>
-            <div className='container'>
-                <div className='col'>
-                    <img className="col" src={logo} alt="logo"/>
-                    <p>Copyright &#169; {new Date().getFullYear()} E-cell MediCaps</p>
-                    <p>Website developed by Himadri Pathak</p>
+        <div className="footer-distributed">
+            <div className="footer-left">
+                <div className="col">
+                    <img className="col" src={logo} alt="logo" style={{ width: '15rem' }} />
+                    <div className="copy">
+                        <p style={{ fontSize: 'small', display: 'block', color: 'aliceblue' }}>
+                            Copyright © 2023 E-cell MediCaps
+                        </p>
+                        <p style={{ fontSize: '11px', color: '#92999f' }}>
+                            Website developed by Himadri Pathak
+                        </p>
+                    </div>
                 </div>
-                <div className='social col'>
-                    <a href="https://www.linkedin.com/company/ecell-medi-caps/?originalSubdomain=in" className="icon">
-                        <FaLinkedin  />
-                    </a>
+                <p className="footer-links">
+                    <a className="link-1" href="/">Home</a>
+                    <a href="/esummit">E-summit</a>
+                    <a href="/contact">Contact Us</a>
+                    <a href="/register">Register Now</a>
+                </p>
+            </div>
 
-                    <a href="https://www.instagram.com/ecell.medicaps/" className="icon">
-                        <FaInstagram  />
-                    </a>
+            <div className="footer-center"></div>
 
-                    <a href="https://goo.gl/maps/febYS8gU1YjHS7hb8" className="icon">
-                        <FaMapMarkedAlt  />
-                    </a>
+            <div className="footer-right">
+                <p className="footer-company-about">
+                    E-cell, founded in 2008, empowers students with entrepreneurial
+                    skills, fostering innovation, and prepping them for industrial
+                    challenges. Established as a club in 2018.
+                </p>
+                <div className="footer-icons">
+                    <a href="https://goo.gl/maps/febYS8gU1YjHS7hb8"><FaMapMarkedAlt /></a> 
+                    <a href="https://www.instagram.com/ecell.medicaps/"><FaInstagram /></a> 
+                    <a href="https://www.linkedin.com/company/ecell-medi-caps/?originalSubdomain=in"><FaLinkedin /></a> 
+                    {/* Add other icons similarly */}
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Footer;

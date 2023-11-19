@@ -1,21 +1,24 @@
 {
     "AboutUs":{
         "description": "E-Cell was first established under the Centre of Enterpreneurship Development in the year 2008 & then it gained reputation as an individual club in the year 2018. Our vision is to develop, enhance and carve out the inner enterpreneurial potentials of students by providing them with opportunites.\n\nE-cell's mission is to train students to face industrial challenges. We also help students discover their potential, implement their ideas, innovate and grow and learn everyday to gain the skills which are going to help them a lifetime."
+
+    "AboutUs": {
+        "description": "Welcome to the heart of entrepreneurship at Medi-Caps University—E-Cell! Since our inception in 2008 and subsequent evolution into an independent club in 2018, we've been passionately nurturing the entrepreneurial spirit in every student"
+    },
+    "OurMission": {
+        "description": "Enquiring students to face industry challenges and encouraging continuous learning. E-Cell, run by enthusiastic students, hosts electrifying programs like workshops, speaker sessions, and grand events. We've already proudly presented E-Summit 19 and E-Summit 23, and we're excited about E-Summit 24 on the horizon. We're your go-to resource for mentorship, consultancy, seed funding, and networking for aspiring entrepreneurs. Join us on this thrilling journey of innovation and entrepreneurship, making the future an adventure, together!"
+
     },
     "Ideate": {
         "title": "Ideate",
-        "detail": "Ideas are just raw materials but they are own most valuable assets.We motivate students to share their Ideas and enjoy their 'Idea to reality' journey with E-cell.",
-        "img": "../../assets/images/ideate.svg"
-
+        "detail": "Ideas are just raw materials but they are own most valuable assets.We motivate students to share their Ideas and enjoy their 'Idea to reality' journey with E-cell."
     },
     "Initiate": {
         "title": "Initiate",
-        "detail": "When ideas are implemented properly,they can be wonderful examples.Students can implement their ideas and receive reviews from experienced leaders & alumnus who are a part of the E-cell network.",
-        "img": "../../assets/images/initiate.svg"
+        "detail": "When ideas are implemented properly, they can be wonderful examples.Students can implement their ideas and receive reviews from experienced leaders & alumnus who are a part of the E-cell network."
     },
     "Innovate": {
         "title": "Innovate",
-        "detail": "Based on the reviews,the students can test out their ideas and come up with various innovative solutions thar will help them create an upward trajectory of their idea.",
-        "img": "../../assets/images/innovate.svg"
+        "detail": "Based on the reviews, the students can test out their ideas and come up with various innovative solutions that will help them create an upward trajectory of their idea."
     }
 }
