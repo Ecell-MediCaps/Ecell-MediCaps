@@ -4,7 +4,7 @@ import "./Navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 import { NavLink } from "react-router-dom";
-import logo from '../../assets/images/e_summit.png'
+import logo from "../../assets/images/e_summit.png";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -24,78 +24,40 @@ function Navbar() {
               {click ? <FaTimes /> : <FaBars />}
             </div>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
-
               <li className="nav-item">
-                <NavLink
-                  to="/"
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
-                  onClick={closeMobileMenu}
-                >
+                <NavLink to="/" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")} onClick={closeMobileMenu}>
                   Home
                 </NavLink>
               </li>
 
               <li className="nav-item">
-                <NavLink
-                  to="/esummit"
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
-                  onClick={closeMobileMenu}
-                >
-                  E-summit
+                <NavLink to="/esummit" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")} onClick={closeMobileMenu}>
+                  E-summit'23
                 </NavLink>
               </li>
 
               <li className="nav-item">
-                <NavLink
-                  to="/archives"
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
-                  onClick={closeMobileMenu}
-                >
+                <NavLink to="/archives" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")} onClick={closeMobileMenu}>
                   Archives
                 </NavLink>
               </li>
 
               <li className="nav-item">
-                <NavLink
-                  to="/ourteam"
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
-                  onClick={closeMobileMenu}
-                >
+                <NavLink to="/ourteam" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")} onClick={closeMobileMenu}>
                   Our Team
                 </NavLink>
               </li>
 
               <li className="nav-item">
-                <NavLink
-                  to="/contact"
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
-                  onClick={closeMobileMenu}
-                >
+                <NavLink to="/contact" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")} onClick={closeMobileMenu}>
                   Contact
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink
-                  to="/register"
-                  className={({ isActive }) =>
-                    "nav-links" + (isActive ? " activated" : "")
-                  }
-                  onClick={closeMobileMenu}
-                >
+                <NavLink to="/register" className={({ isActive }) => "nav-links" + (isActive ? " activated" : "")} onClick={closeMobileMenu}>
                   Register Now
                 </NavLink>
               </li>
-
             </ul>
           </div>
         </nav>
