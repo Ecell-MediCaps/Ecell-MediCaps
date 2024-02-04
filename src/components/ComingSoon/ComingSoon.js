@@ -26,10 +26,10 @@ const ComingSoon = () => {
     <>
       <div className="bg-events">
         <div className="gallery">
-          <img src={BG1} alt="image" />
-          <img src={BG5} alt="image" />
-          <img src={BG2} alt="image" />
-          <img src={BG3} alt="image" />
+          <img src={BG1} alt={image} />
+          <img src={BG5} alt={image} />
+          <img src={BG2} alt={image} />
+          <img src={BG3} alt={image} />
         </div>
       </div>
       <div className="E-Summit-Photo" />
