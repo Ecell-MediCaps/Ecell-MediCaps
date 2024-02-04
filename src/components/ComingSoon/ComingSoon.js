@@ -26,10 +26,10 @@ const ComingSoon = () => {
     <>
       <div className="bg-events">
         <div className="gallery">
-          <img src={BG1} alt={image} />
-          <img src={BG5} alt={image} />
-          <img src={BG2} alt={image} />
-          <img src={BG3} alt={image} />
+          <img src={BG1} alt="Background-1" />
+          <img src={BG5} alt="Background-5" />
+          <img src={BG2} alt="Background-2" />
+          <img src={BG3} alt="Background-3" />
         </div>
       </div>
       <div className="E-Summit-Photo" />
@@ -132,7 +132,7 @@ const ComingSoon = () => {
           <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container_speaker">
             <div className="card_speaker">
               <div className="team-image-wrapper">
-                <img className="team-member-image" src={speaker1} />
+                <img className="team-member-image" src={speaker1} alt="Chirag Kulkarni"/>
               </div>
               <p className="text-blk name">Chirag Kulkarni</p>
               <p className="text-blk position">CMO - Medly</p>
@@ -141,7 +141,7 @@ const ComingSoon = () => {
           <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container_speaker">
             <div className="card_speaker">
               <div className="team-image-wrapper">
-                <img className="team-member-image" src={speaker2} />
+                <img className="team-member-image" src={speaker2} alt="Himeesh Madaan"/>
               </div>
               <p className="text-blk name">Himeesh Madaan</p>
               <p className="text-blk position">Entrepreneur | Youtuber</p>
@@ -150,7 +150,7 @@ const ComingSoon = () => {
           <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container_speaker">
             <div className="card_speaker">
               <div className="team-image-wrapper">
-                <img className="team-member-image" src={speaker3} />
+                <img className="team-member-image" src={speaker3} alt="Aditya Vyas"/>
               </div>
               <p className="text-blk name">Aditya Vyas</p>
               <p className="text-blk position">CEO-IITI Dirshti CPS</p>
@@ -159,7 +159,7 @@ const ComingSoon = () => {
           <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container_speaker">
             <div className="card_speaker">
               <div className="team-image-wrapper">
-                <img className="team-member-image" src={speaker4} />
+                <img className="team-member-image" src={speaker4} alt="Rajat Jain"/>
               </div>
               <p className="text-blk name">Rajat Jain</p>
               <p className="text-blk position">Co-Founder of Kimirica & Pataa App</p>
@@ -168,7 +168,7 @@ const ComingSoon = () => {
           <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container_speaker">
             <div className="card_speaker">
               <div className="team-image-wrapper">
-                <img className="team-member-image" src={speaker5} />
+                <img className="team-member-image" src={speaker5} alt="Narendra Sen" />
               </div>
               <p className="text-blk name">Narendra Sen</p>
               <p className="text-blk position">Founder & CEO | RackBank</p>
@@ -177,7 +177,7 @@ const ComingSoon = () => {
           <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container_speaker">
             <div className="card_speaker">
               <div className="team-image-wrapper">
-                <img className="team-member-image" src={speaker6} />
+                <img className="team-member-image" src={speaker6} alt="Ekagra Sharma"/>
               </div>
               <p className="text-blk name">Ekagra Sharma</p>
               <p className="text-blk position">Writer-Kapil Sharma | Super Dancer</p>
@@ -186,7 +186,7 @@ const ComingSoon = () => {
           <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container_speaker">
             <div className="card_speaker">
               <div className="team-image-wrapper">
-                <img className="team-member-image" src={speaker7} />
+                <img className="team-member-image" src={speaker7} alt="Shubham Chouhan"/>
               </div>
               <p className="text-blk name">Shubham Chouhan</p>
               <p className="text-blk position">CEO & Founder- IEEN India|Etimes Group</p>
