@@ -13,7 +13,7 @@ const Footer = () => {
                             Copyright © 2023 E-cell MediCaps
                         </p>
                         <p style={{ fontSize: '11px', color: '#92999f' }}>
-                            Website developed by Himadri Pathak
+                            Website developed by E-CELL
                         </p>
                     </div>
                 </div>
