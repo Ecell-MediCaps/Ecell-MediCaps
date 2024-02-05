@@ -16,11 +16,6 @@ jobs:
         with:
           node-version: 16
 
-      - name: Set Git user information
-        run: |
-          git config --global user.email "initium.ecell@medicaps.ac.in"
-          git config --global user.name "Ecell-MediCaps"
-
       - name: Install dependencies
         run: npm install
 
@@ -31,13 +26,7 @@ jobs:
         run: npm run build
         env:
           CI: false
-      - name: Print Remote URLs
-        run: |
-          git remote -v
-          git branch
 
       - name: Deploy to GitHub Pages
         run: |
-          git config --global user.email "initium.ecell@medicaps.ac.in"
-          git config --global user.name "Ecell-MediCaps"
-          git push origin HEAD:gh-pages --force
+          git push
