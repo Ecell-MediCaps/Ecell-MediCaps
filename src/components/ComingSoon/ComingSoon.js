@@ -26,30 +26,29 @@ const ComingSoon = () => {
     <>
       <div className="bg-events">
         <div className="gallery">
-          <img src={BG1} alt="image" />
-          <img src={BG5} alt="image" />
-          <img src={BG2} alt="image" />
-          <img src={BG3} alt="image" />
+          <img src={BG1} alt="Background-1" />
+          <img src={BG5} alt="Background-5" />
+          <img src={BG2} alt="Background-2" />
+          <img src={BG3} alt="Background-3" />
         </div>
       </div>
-      <div className="E-Summit-Photo" />
+      <div className="E-Summit-Photo"/>
       <div className="section_event">
         <h1 className="event-heading">"Pinnacle Moments: Recalling Past Entrepreneurial Feats"</h1>
       </div>
       <div className="card-container ">
-        {/* Card 1 */}
         <video className="video-background2" autoPlay loop muted>
           <source src={BGvideo} type="video/mp4" />
         </video>
         <article className="card_event">
           <header className="card__thumb">
-            <a href="#">
+            <a href="javascript:void(0)">
               <img src={IdeaThon} alt={"Ideathonimg"} />
             </a>
           </header>
           <div className="card__body">
             <h2 className="card__title">
-              <a href="#">IDEATHON</a>
+              <a href="javascript:void(0)">IDEATHON</a>
             </h2>
             <div className="card__subtitle">Ideas Unleashed, Futures Changed</div>
             <p className="card__description">IdeaThon is an major event during E-Summit'23. A competition in which entrepreneurs submit their ideas to a panel of judges. The MII Foundation funded the top five concepts, and the winner idea received a cash award of Rs 5,000.</p>
@@ -57,13 +56,13 @@ const ComingSoon = () => {
         </article>
         <article className="card_event">
           <header className="card__thumb">
-            <a href="#">
+            <a href="javascript:void(0)">
               <img src={Sharktank} alt={"sharktankimg"} />
             </a>
           </header>
           <div className="card__body">
             <h2 className="card__title">
-              <a href="#">ZENITH SHARK TANK</a>
+              <a href="javascript:void(0)">ZENITH SHARK TANK</a>
             </h2>
             <div className="card__subtitle">In the Tank, On Top</div>
             <p className="card__description">The Zenith shark tank was the most appealing competition at E-Summit'23. It is a recreation of the popular show Shark Tank. Young firms pitched their products and services in front of sharks(judges)for fundings.</p>
@@ -71,13 +70,13 @@ const ComingSoon = () => {
         </article>
         <article className="card_event">
           <header className="card__thumb">
-            <a href="#">
+            <a href="javascript:void(0)">
               <img src={Startup} alt={"startupimg"} />
             </a>
           </header>
           <div className="card__body">
             <h2 className="card__title">
-              <a href="#">START-UP SHOWCASE</a>
+              <a href="javascript:void(0)">START-UP SHOWCASE</a>
             </h2>
             <div className="card__subtitle">Trailblazing Talents</div>
             <p className="card__description">A platform where budding enterprises showcased their concepts, products, and services to,customers, and investors.The event provides networking chances with some of the area's most creative businesses.</p>
@@ -85,13 +84,13 @@ const ComingSoon = () => {
         </article>
         <article className="card_event">
           <header className="card__thumb">
-            <a href="#">
+            <a href="javascript:void(0)">
               <img src={Speaker} alt={"Speakerimg"} />
             </a>
           </header>
           <div className="card__body">
             <h2 className="card__title">
-              <a href="#">Inspirational Voices</a>
+              <a href="javascript:void(0)">Inspirational Voices</a>
             </h2>
             <div className="card__subtitle">Influence through Ideas</div>
             <p className="card__description">This talk sessions's goal is to expose students to top-tier business thinkers who offered their experiences and advice throughout the day.</p>
@@ -99,13 +98,13 @@ const ComingSoon = () => {
         </article>
         <article className="card_event">
           <header className="card__thumb">
-            <a href="#">
+            <a href="javascript:void(0)">
               <img src={businessquiz} alt={"businessquiz"} />
             </a>
           </header>
           <div className="card__body">
             <h2 className="card__title">
-              <a href="#">Business Quiz</a>
+              <a href="javascript:void(0)">Business Quiz</a>
             </h2>
             <div className="card__subtitle">Business Brain Bash</div>
             <p className="card__description">A business quiz was conducted for all the participants. This competition's goal is to interact with individuals and introduce them to business.The individual with the most correct responses wins.</p>
@@ -113,13 +112,13 @@ const ComingSoon = () => {
         </article>
         <article className="card_event">
           <header className="card__thumb">
-            <a href="#">
+            <a href="javascript:void(0)">
               <img src={Foodfest} alt={"foodfestimg"} />
             </a>
           </header>
           <div className="card__body">
             <h2 className="card__title">
-              <a href="#">FOOD FEST</a>
+              <a href="javascript:void(0)">FOOD FEST</a>
             </h2>
             <div className="card__subtitle">Eats and Treats Fiesta</div>
             <p className="card__description">The most mouth-wateringly delicious event is the food festival.In this young food market, businesses present their delicacies in front of food enthusiasts.The motto of conducting food festivals is good food,good mood.</p>
@@ -132,7 +131,7 @@ const ComingSoon = () => {
           <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container_speaker">
             <div className="card_speaker">
               <div className="team-image-wrapper">
-                <img className="team-member-image" src={speaker1} />
+                <img className="team-member-image" src={speaker1} alt="Chirag Kulkarni"/>
               </div>
               <p className="text-blk name">Chirag Kulkarni</p>
               <p className="text-blk position">CMO - Medly</p>
@@ -141,7 +140,7 @@ const ComingSoon = () => {
           <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container_speaker">
             <div className="card_speaker">
               <div className="team-image-wrapper">
-                <img className="team-member-image" src={speaker2} />
+                <img className="team-member-image" src={speaker2} alt="Himeesh Madaan"/>
               </div>
               <p className="text-blk name">Himeesh Madaan</p>
               <p className="text-blk position">Entrepreneur | Youtuber</p>
@@ -150,7 +149,7 @@ const ComingSoon = () => {
           <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container_speaker">
             <div className="card_speaker">
               <div className="team-image-wrapper">
-                <img className="team-member-image" src={speaker3} />
+                <img className="team-member-image" src={speaker3} alt="Aditya Vyas"/>
               </div>
               <p className="text-blk name">Aditya Vyas</p>
               <p className="text-blk position">CEO-IITI Dirshti CPS</p>
@@ -159,7 +158,7 @@ const ComingSoon = () => {
           <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container_speaker">
             <div className="card_speaker">
               <div className="team-image-wrapper">
-                <img className="team-member-image" src={speaker4} />
+                <img className="team-member-image" src={speaker4} alt="Rajat Jain"/>
               </div>
               <p className="text-blk name">Rajat Jain</p>
               <p className="text-blk position">Co-Founder of Kimirica & Pataa App</p>
@@ -168,7 +167,7 @@ const ComingSoon = () => {
           <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container_speaker">
             <div className="card_speaker">
               <div className="team-image-wrapper">
-                <img className="team-member-image" src={speaker5} />
+                <img className="team-member-image" src={speaker5} alt="Narendra Sen" />
               </div>
               <p className="text-blk name">Narendra Sen</p>
               <p className="text-blk position">Founder & CEO | RackBank</p>
@@ -177,7 +176,7 @@ const ComingSoon = () => {
           <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container_speaker">
             <div className="card_speaker">
               <div className="team-image-wrapper">
-                <img className="team-member-image" src={speaker6} />
+                <img className="team-member-image" src={speaker6} alt="Ekagra Sharma"/>
               </div>
               <p className="text-blk name">Ekagra Sharma</p>
               <p className="text-blk position">Writer-Kapil Sharma | Super Dancer</p>
@@ -186,7 +185,7 @@ const ComingSoon = () => {
           <div className="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container_speaker">
             <div className="card_speaker">
               <div className="team-image-wrapper">
-                <img className="team-member-image" src={speaker7} />
+                <img className="team-member-image" src={speaker7} alt="Shubham Chouhan"/>
               </div>
               <p className="text-blk name">Shubham Chouhan</p>
               <p className="text-blk position">CEO & Founder- IEEN India|Etimes Group</p>
