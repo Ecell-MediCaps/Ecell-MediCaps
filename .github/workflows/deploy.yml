@@ -20,10 +20,9 @@ jobs:
           git config --global user.email "initium.ecell@medicaps.ac.in"
           git config --global user.name "Ecell-MediCaps"
 
-
       - name: Install dependencies
         run: npm install
-        
+
       - name: Set CI to false
         run: echo "CI=false" >> $GITHUB_ENV
 
@@ -31,6 +30,8 @@ jobs:
         run: npm run build
         env:
           CI: false
-          
+
       - name: Deploy to GitHub Pages
-        run: npm run deploy
+        run: |
+          git remote add origin_with_token "https://${{ secrets.DEPLOY_TOKEN }}@github.com/${{ github.repository }}"
+          git push origin_with_token main
