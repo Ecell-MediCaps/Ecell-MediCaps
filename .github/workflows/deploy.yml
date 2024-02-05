@@ -26,10 +26,11 @@ jobs:
 
       - name: Build project
         run: npm run build
-        env:
-          CI: false
 
-      - name: Set Git configuration and deploy
+      - name: Set up GitHub Pages Secrets
         run: |
           git remote add origin_with_token "https://x-access-token:${{ secrets.DEPLOY_TOKEN }}@github.com/Ecell-MediCaps/Ecell-MediCaps"
-          git push origin_with_token HEAD:main
+          git push origin_with_token main
+
+      - name: Deploy to GitHub Pages
+        run: npm run deploy
