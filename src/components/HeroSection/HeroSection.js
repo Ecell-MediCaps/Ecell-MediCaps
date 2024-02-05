@@ -4,7 +4,7 @@ import videoBg from '../../assets/videos/Network.mp4'
 import './HeroSection.css'
 import Typewriter from 'typewriter-effect';
 import hero from '../../assets/images/hero.gif'
-import building from '../../assets/videos/building_animation.mp4'
+import building from '../../assets/images/building.png'
 
 
 const HeroSection = () => {
@@ -12,7 +12,7 @@ const HeroSection = () => {
   return (
     <div className='main'>
       <div className='overlay'>
-      <video src={building}  autoPlay loop muted/>
+      <img src={building} alt='buildings' />
       </div>
         <video src={videoBg}  autoPlay loop muted/>
         <div className='herowrapper'>
