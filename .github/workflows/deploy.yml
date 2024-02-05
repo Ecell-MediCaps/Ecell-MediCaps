@@ -10,6 +10,17 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Set Git user information
+        run: |
+          git config --global user.email "initium.ecell@medicaps.ac.in"
+          git config --global user.name "Ecell-MediCaps"
+
+
       - name: Install dependencies
         run: npm install
         
