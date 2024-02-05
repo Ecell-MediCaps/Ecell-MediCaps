@@ -8,10 +8,13 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v2
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
+        with:
+          node-version: 16
 
       - name: Set Git user information
         run: |
@@ -26,12 +29,11 @@ jobs:
 
       - name: Build project
         run: npm run build
-
-      - name: Set up GitHub Pages Secrets
-        run: |
-          git remote add origin_with_token "https://x-access-token:${{ secrets.DEPLOY_TOKEN }}@github.com/Ecell-MediCaps/Ecell-MediCaps"
-          git push origin_with_token main
-
+        env:
+          CI: false
 
       - name: Deploy to GitHub Pages
-        run: npm run deploy
+        run: |
+          git config --global user.email "initium.ecell@medicaps.ac.in"
+          git config --global user.name "Ecell-MediCaps"
+          git push origin HEAD:gh-pages --force
