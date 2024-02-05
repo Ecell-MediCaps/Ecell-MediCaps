@@ -15,6 +15,8 @@ jobs:
 
       - name: Build project
         run: npm run build
+        env:
+          CI: false
 
       - name: Deploy to GitHub Pages
         run: npm run deploy
