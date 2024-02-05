@@ -29,7 +29,7 @@ jobs:
         env:
           CI: false
 
-      - name: Set Git configuration
+      - name: Set Git configuration and deploy
         run: |
           git remote add origin_with_token "https://x-access-token:${{ secrets.DEPLOY_TOKEN }}@github.com/Ecell-MediCaps/Ecell-MediCaps"
-          git push origin_with_token main
+          git push origin_with_token HEAD:main
