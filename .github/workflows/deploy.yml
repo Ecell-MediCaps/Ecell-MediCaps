@@ -12,14 +12,9 @@ jobs:
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
-        with:
-          node-version: 16
 
       - name: Set Git user information
         run: |
-          git config --global url."https://".insteadOf "https://"
-          git config --global url."https://@github.com/".insteadOf "https://github.com/"
-          git config --global url."https://api.github.com/".insteadOf "https://api.github.com/"
           git config --global user.email "initium.ecell@medicaps.ac.in"
           git config --global user.name "Ecell-MediCaps"
 
