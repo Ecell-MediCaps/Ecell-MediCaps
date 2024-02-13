@@ -1,32 +1,32 @@
-name: Deploy to ecellmedicaps.com
+name: Build and Deploy to gh-pages
 
 on:
   push:
-    branches: [main]
+    branches:
+      - "*"
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v2
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v2
         with:
-          node-version: 16
+          node-version: "14"
 
       - name: Install dependencies
-        run: npm install
+        run: npm install # Adjust this based on your project setup
 
-      - name: Set CI to false
-        run: echo "CI=false" >> $GITHUB_ENV
+      - name: Build production file
+        run: npm run build # Adjust this based on your project setup
 
-      - name: Build project
-        run: npm run build
-        env:
-          CI: false
-
-      - name: Deploy to GitHub Pages
-        run: |
-          git push
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.DEPLOY_TOKEN }}
+          publish_dir: ./build # Adjust this to the directory where your production file is generated
+          publish_branch: gh-pages
