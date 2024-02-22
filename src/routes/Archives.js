@@ -11,7 +11,7 @@ import cardimg from '../assets/images/cardimg.jpg'
 
 const Archives = () => {
   return (
-    <div className="archives">
+    <div  style={{width: "100vw"}} className="archives">
       <Parallax strength={800} bgImage={cardimg} bgImageAlt="building">
         <div className='speakers'>
             <h1>Past Speakers</h1>
