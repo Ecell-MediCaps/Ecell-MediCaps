@@ -12,7 +12,7 @@ const Footer = () => {
                         <p style={{ fontSize: 'small', display: 'block', color: 'aliceblue' }}>
                             Copyright © 2023 E-cell MediCaps
                         </p>
-                        <p style={{ fontSize: '11px', color: '#92999f' }}>
+                        <p style={{ fontSize: '15px',marginTop:'2px', color: '#92999f' }}>
                             Website developed by E-CELL
                         </p>
                     </div>
