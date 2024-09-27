@@ -12,7 +12,7 @@ const HeroSection = () => {
       <div className="overlay">
         <video className="building" src={building} autoPlay loop muted />
       </div>
-      <video className="videoBg" src={videoBg} autoPlay loop muted />
+      
       <div className="herowrapper">
         <div className="content">
           <h3 className="title">Welcome To</h3>

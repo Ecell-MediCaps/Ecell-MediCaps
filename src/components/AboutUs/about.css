@@ -1,4 +1,4 @@
-about {
+.about {
     background: rgba(0, 0, 0, 0.8);
     min-height: 100vh;
     width: 100%;
@@ -18,7 +18,7 @@ about {
     padding-bottom: 1.5rem;
 }
 .ourmission {
-    background: rgba(0, 0, 0, 0.8);
+   
     min-height: 100vh;
     width: 100%;
     text-align: center;
