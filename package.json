@@ -1,7 +1,7 @@
 {
   "name": "ecellmedicaps",
   "version": "0.1.0",
-  "homepage": "ecellmedicaps.in",
+  "homepage": " http://ecellmedicaps.in/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
